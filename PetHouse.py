@@ -1,0 +1,18 @@
+from classCat import Cat
+from classCat import Dog
+
+cat1 = Cat("Снежа", "female", "1.5 year")
+cat2 = Cat("Абби", "male", "1 year")
+cat3 = Cat("Ницца", "female", "10 months")
+
+dog1 = Dog("Бутуз", "male", "3.5 year")
+dog2 = Dog("Слим", "male", "6 year")
+dog3 = Dog("Гром", "male", "10 months")
+
+print(f"Кошка {cat1.get_name()}, {cat1.get_gender()}, возраст {cat1.get_age()}")
+print(f"Кошка {cat2.get_name()}, {cat2.get_gender()}, возраст {cat2.get_age()}")
+print(f"Кошка {cat3.get_name()}, {cat3.get_gender()}, возраст {cat3.get_age()}")
+print()
+print(f"Собака {dog1.get_pet()[0]}, возраст {dog1.get_pet()[1]}")
+print(f"Собака {dog2.get_pet()[0]}, возраст {dog2.get_pet()[1]}")
+print(f"Собака {dog3.get_pet()[0]}, возраст {dog3.get_pet()[1]}")
